@@ -3,7 +3,7 @@ from tensorflow import keras
 import cv2
 import numpy as np
 
-model = tf.keras.models.load_model('oms_model.h5')
+model = tf.keras.models.load_model('oms_model.keras')
 
 frameWidth = 640
 frameHeight = 480
