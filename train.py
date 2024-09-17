@@ -1,6 +1,6 @@
 import tensorflow as tf
 from tensorflow import keras
-from tensorflow.keras import layers
+from keras import layers
 
 imgDirPath = 'Data Collection'
 
@@ -48,4 +48,4 @@ model.compile(
 )
 
 history = model.fit(train_ds, epochs=2)
-model.save('oms_model.h5')
+model.save('oms_model.keras')
